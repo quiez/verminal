@@ -60,12 +60,13 @@ exports.decorateConfig = config =>
     .tab_tab {
       border-right: 1px solid darkslategrey !important;
       border-bottom: 0 !important;
+      background: rgba(255, 255, 255, .05);
     }
     .tab_tab:last-child {
       border: 0;
     }
     .tab_textActive {
-      background: rgba(255, 255, 255, .05);
+      background: rgba(255, 255, 255, 1);
     }
   `
   });
