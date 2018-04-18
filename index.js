@@ -58,7 +58,8 @@ exports.decorateConfig = config =>
       border-color: transparent !important;
     }
     .tab_tab {
-      border: 0;
+      border-right: 1px solid darkslategrey !important;
+      border-bottom: 0 !important;
     }
     .tab_textActive {
       background: rgba(255, 255, 255, .05);
