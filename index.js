@@ -61,6 +61,9 @@ exports.decorateConfig = config =>
       border-right: 1px solid darkslategrey !important;
       border-bottom: 0 !important;
     }
+    .tab_tab:last-child {
+      border: 0;
+    }
     .tab_textActive {
       background: rgba(255, 255, 255, .05);
     }
