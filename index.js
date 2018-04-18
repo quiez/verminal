@@ -61,7 +61,7 @@ exports.decorateConfig = config =>
       border: 0;
     }
     .tab_textActive {
-      background: rgba(255, 255, 255, 1);
+      background: rgba(255, 255, 255, .05);
     }
   `
   });
