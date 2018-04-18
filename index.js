@@ -1,7 +1,7 @@
 module.exports.onWindow = browserWindow => browserWindow.setVibrancy("dark");
 
 const foregroundColor = "#fff";
-const backgroundColor = "rgba(0, 0, 0, .65)";
+const backgroundColor = "rgba(0, 0, 0, 1)";
 const overlap = "rgba(0, 0, 0, .15)";
 const red = "#FF3B30";
 const green = "#4CD964";
@@ -61,7 +61,7 @@ exports.decorateConfig = config =>
       border: 0;
     }
     .tab_textActive {
-      background: rgba(255, 255, 255, .05);
+      background: rgba(255, 255, 255, 1);
     }
   `
   });
